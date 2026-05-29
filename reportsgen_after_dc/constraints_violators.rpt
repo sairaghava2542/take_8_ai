@@ -1,0 +1,20 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : accel_top
+Version: V-2023.12-SP4
+Date   : Fri May 29 16:25:56 2026
+****************************************
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   accel_top                    0.00       2622500096.00  -2622500096.00
+                                                                    (VIOLATED)
+
+
+1

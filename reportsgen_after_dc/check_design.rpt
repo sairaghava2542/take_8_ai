@@ -1,0 +1,659 @@
+Warning: No operating condition has been set explicitly on the current design. A default operating condition will be assumed. (MV-028)
+ 
+****************************************
+check_design summary:
+Version:     V-2023.12-SP4
+Date:        Fri May 29 16:25:55 2026
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     40
+    Unconnected ports (LINT-28)                                    40
+
+Cells                                                             310
+    Connected to power or ground (LINT-32)                        290
+    Hier pins without driver and load (LINT-60)                    20
+--------------------------------------------------------------------------------
+
+Warning: In design 'accel_top', port 'addr[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_top', port 'addr[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', port 'addr[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[0]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[8]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[16]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[24]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[32]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[40]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[48]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[56]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[1]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[9]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[17]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[25]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[33]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[41]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[49]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[57]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[2]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[10]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[18]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[26]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[34]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[42]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[50]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[58]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[3]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[11]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[19]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[27]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[35]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[43]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[51]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[59]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[4]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[12]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[20]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[28]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[36]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[44]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[52]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[60]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[5]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[13]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[21]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[29]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[37]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[45]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[53]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[61]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[6]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[14]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[22]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[30]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[38]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[46]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[54]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[62]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[7]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[15]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[23]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[31]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[39]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[47]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[55]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_c_buf_reg[63]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_sc_cnt_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_arr_wgt_data_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_arr_wgt_data_reg_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_arr_act_data_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_arr_act_data_reg_0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_irq_en_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[0]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[1]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[2]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[3]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[4]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[5]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[6]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[7]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[8]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[9]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[10]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[11]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[12]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[13]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[14]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[15]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[16]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[17]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[18]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[19]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[20]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[21]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[22]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[23]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[24]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[25]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[26]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[27]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[28]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[29]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[30]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[31]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[32]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[33]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[34]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[35]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[36]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[37]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[38]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[39]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[40]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[41]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[42]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[43]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[44]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[45]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[46]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[47]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[48]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[49]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[50]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[51]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[52]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[53]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[54]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[55]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[56]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[57]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[58]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[59]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[60]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[61]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[62]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_a_buf_reg[63]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[0]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[1]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[2]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[3]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[4]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[5]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[6]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[7]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[8]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[9]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[10]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[11]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[12]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[13]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[14]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[15]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[16]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[17]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[18]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[19]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[20]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[21]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[22]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[23]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[24]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[25]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[26]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[27]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[28]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[29]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[30]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[31]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[32]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[33]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[34]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[35]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[36]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[37]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[38]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[39]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[40]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[41]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[42]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[43]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[44]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[45]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[46]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[47]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[48]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[49]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[50]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[51]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[52]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[53]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[54]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[55]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[56]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[57]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[58]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[59]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[60]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[61]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[62]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_regs', a pin on submodule 'clk_gate_b_buf_reg[63]' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[7].gen_col[7].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[7].gen_col[6].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[7].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[6].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[0].gen_col[0].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[0].gen_col[1].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[0].gen_col[2].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[0].gen_col[3].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[0].gen_col[4].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[0].gen_col[5].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[0].gen_col[6].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[0].gen_col[7].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[1].gen_col[0].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[1].gen_col[1].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[1].gen_col[2].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[1].gen_col[3].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[1].gen_col[4].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[1].gen_col[5].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[1].gen_col[6].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[1].gen_col[7].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[2].gen_col[0].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[2].gen_col[1].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[2].gen_col[2].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[2].gen_col[3].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[2].gen_col[4].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[2].gen_col[5].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[2].gen_col[6].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[2].gen_col[7].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[3].gen_col[0].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[3].gen_col[1].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[3].gen_col[2].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[3].gen_col[3].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[3].gen_col[4].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[3].gen_col[5].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[3].gen_col[6].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[3].gen_col[7].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[4].gen_col[0].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[4].gen_col[1].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[4].gen_col[2].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[4].gen_col[3].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[4].gen_col[4].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[4].gen_col[5].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[4].gen_col[6].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[4].gen_col[7].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[0].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[0].pe_inst/clk_gate_w_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[1].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[1].pe_inst/clk_gate_w_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[2].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[2].pe_inst/clk_gate_w_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[3].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[3].pe_inst/clk_gate_w_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[4].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[4].pe_inst/clk_gate_w_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[5].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[5].pe_inst/clk_gate_w_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[5].pe_inst/clk_gate_a_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[6].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[6].pe_inst/clk_gate_w_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[6].pe_inst/clk_gate_a_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[7].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[5].gen_col[7].pe_inst/clk_gate_w_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[0].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[0].pe_inst/clk_gate_w_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[0].pe_inst/clk_gate_a_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[1].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[1].pe_inst/clk_gate_w_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[1].pe_inst/clk_gate_a_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[2].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[2].pe_inst/clk_gate_w_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[2].pe_inst/clk_gate_a_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[3].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[3].pe_inst/clk_gate_w_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[3].pe_inst/clk_gate_a_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[4].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[4].pe_inst/clk_gate_w_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[4].pe_inst/clk_gate_a_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[5].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[5].pe_inst/clk_gate_w_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[6].gen_col[5].pe_inst/clk_gate_a_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[7].gen_col[0].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[7].gen_col[0].pe_inst/clk_gate_a_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[7].gen_col[1].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[7].gen_col[1].pe_inst/clk_gate_a_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[7].gen_col[2].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[7].gen_col[2].pe_inst/clk_gate_a_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[7].gen_col[3].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[7].gen_col[3].pe_inst/clk_gate_a_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[7].gen_col[4].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[7].gen_col[4].pe_inst/clk_gate_a_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[7].gen_col[5].pe_inst/clk_gate_accumulator_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'systolic_array_8x8', a pin on submodule 'gen_row[7].gen_col[5].pe_inst/clk_gate_a_out_reg' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 'TE' is connected to logic 0. 
+Warning: In design 'accel_top', input pin 'addr[31]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[30]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[29]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[28]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[27]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[26]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[25]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[24]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[23]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[22]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[21]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[20]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[19]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[18]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[17]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[16]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[15]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[14]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[13]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+Warning: In design 'accel_top', input pin 'addr[12]' of hierarchical cell 'u_regs' has no internal loads and is not connected to any nets. (LINT-60)
+1

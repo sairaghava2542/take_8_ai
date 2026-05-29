@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : power_domain
+Design : accel_top
+Version: V-2023.12-SP4
+Date   : Fri May 29 16:25:58 2026
+****************************************
+
+------------------------------------------------------------------------------
+
+ Power Domain             : PD_AON
+ Current Scope            : accel_top
+ Elements                 : <top_level>
+ Available Supply Nets    : VDD_ALW, VDD_COMP, VDD_COMP_SW, VSS
+ Available Supply Sets    : PD_AON.primary, PD_COMPUTE.primary
+
+ Connections                -- Power --             -- Ground --
+ Primary:                   VDD_ALW                 VSS
+   (Max Op. Voltage)         (1.05)                  (0.00)
+ Default Isolation:            -                       -
+   (Max Op. Voltage)          (-)                     (-)
+ Default Retention:            -                       -
+   (Max Op. Voltage)          (-)                     (-)
+
+------------------------------------------------------------------------------
+
+ Power Domain             : PD_COMPUTE
+ Current Scope            : accel_top
+ Elements                 : u_compute
+ Available Supply Nets    : VDD_ALW, VDD_COMP, VDD_COMP_SW, VSS
+ Available Supply Sets    : PD_AON.primary, PD_COMPUTE.primary
+
+ Connections                -- Power --             -- Ground --
+ Primary:                   VDD_COMP_SW             VSS
+   (Max Op. Voltage)         (0.78)                  (0.00)
+ Default Isolation:            -                       -
+   (Max Op. Voltage)          (-)                     (-)
+ Default Retention:            -                       -
+   (Max Op. Voltage)          (-)                     (-)
+ Isolation: ISO_COMPUTE_OUT VDD_ALW (1.05)          VSS (0.00)
+
+ Switches                   -- Input --             -- Output --
+ Switch: compute_sw         VDD_COMP (0.78)         VDD_COMP_SW (0.78)
+
+ (#) Not reported because of location parent/fanout.
+
+------------------------------------------------------------------------------
+1

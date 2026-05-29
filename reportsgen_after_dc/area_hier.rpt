@@ -1,0 +1,498 @@
+ 
+****************************************
+Report : area
+Design : accel_top
+Version: V-2023.12-SP4
+Date   : Fri May 29 16:25:57 2026
+****************************************
+
+Library(s) Used:
+
+    saed32lvt_tt1p05v25c (File: /data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_lvt/db_ccs/saed32lvt_tt1p05v25c.db)
+    saed32rvt_ulvl_tt1p05v25c_i0p78v (File: /data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_ulvl_tt1p05v25c_i0p78v.db)
+    saed32rvt_tt1p05v25c (File: /data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v25c.db)
+    saed32lvt_tt0p78v25c (File: /data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_lvt/db_ccs/saed32lvt_tt0p78v25c.db)
+    saed32rvt_tt0p78v25c (File: /data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt0p78v25c.db)
+    saed32rvt_dlvl_tt0p78v25c_i1p05v (File: /data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_dlvl_tt0p78v25c_i1p05v.db)
+
+Number of ports:                         7344
+Number of nets:                         37548
+Number of cells:                        25068
+Number of combinational cells:          18238
+Number of sequential cells:              6464
+Number of macros/black boxes:               0
+Number of buf/inv:                       1783
+Number of references:                       9
+
+Combinational area:              54818.098038
+Buf/Inv area:                     2398.356953
+Noncombinational area:           45123.776380
+Macro/Black Box area:                0.000000
+Net Interconnect area:           32530.034811
+
+Total cell area:                 99941.874418
+Total area:                     132471.909230
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ------------------------------ 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-   Black-
+                                  Total       Total    national    national    boxes   Design
+--------------------------------  ----------  -------  ----------  ----------  ------  --------------------------------------------
+accel_top                         99941.8744    100.0   1895.9143      0.0000  0.0000  accel_top
+u_compute                         67997.4979     68.0  10309.8597  21036.0075  0.0000  systolic_array_8x8
+u_compute/DP_OP_610J1_122_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_610J1_122_8972_J1_0
+u_compute/DP_OP_611J1_123_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_611J1_123_8972_J1_0
+u_compute/DP_OP_612J1_124_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_612J1_124_8972_J1_0
+u_compute/DP_OP_613J1_125_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_613J1_125_8972_J1_0
+u_compute/DP_OP_614J1_126_8972      570.5533      0.6    570.5533      0.0000  0.0000  systolic_array_8x8_DP_OP_614J1_126_8972_J1_0
+u_compute/DP_OP_615J1_127_8972      583.5146      0.6    583.5146      0.0000  0.0000  systolic_array_8x8_DP_OP_615J1_127_8972_J1_0
+u_compute/DP_OP_616J1_128_8972      608.4207      0.6    608.4207      0.0000  0.0000  systolic_array_8x8_DP_OP_616J1_128_8972_J1_0
+u_compute/DP_OP_617J1_129_8972      566.7411      0.6    566.7411      0.0000  0.0000  systolic_array_8x8_DP_OP_617J1_129_8972_J1_0
+u_compute/DP_OP_618J1_130_8972      580.9732      0.6    580.9732      0.0000  0.0000  systolic_array_8x8_DP_OP_618J1_130_8972_J1_0
+u_compute/DP_OP_619J1_131_8972      586.8185      0.6    586.8185      0.0000  0.0000  systolic_array_8x8_DP_OP_619J1_131_8972_J1_0
+u_compute/DP_OP_620J1_132_8972      633.3268      0.6    633.3268      0.0000  0.0000  systolic_array_8x8_DP_OP_620J1_132_8972_J1_0
+u_compute/DP_OP_621J1_133_8972      589.6141      0.6    589.6141      0.0000  0.0000  systolic_array_8x8_DP_OP_621J1_133_8972_J1_0
+u_compute/DP_OP_622J1_134_8972      564.4538      0.6    564.4538      0.0000  0.0000  systolic_array_8x8_DP_OP_622J1_134_8972_J1_0
+u_compute/DP_OP_623J1_135_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_623J1_135_8972_J1_0
+u_compute/DP_OP_624J1_136_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_624J1_136_8972_J1_0
+u_compute/DP_OP_625J1_137_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_625J1_137_8972_J1_0
+u_compute/DP_OP_626J1_138_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_626J1_138_8972_J1_0
+u_compute/DP_OP_627J1_139_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_627J1_139_8972_J1_0
+u_compute/DP_OP_628J1_140_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_628J1_140_8972_J1_0
+u_compute/DP_OP_629J1_141_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_629J1_141_8972_J1_0
+u_compute/DP_OP_630J1_142_8972      562.4207      0.6    562.4207      0.0000  0.0000  systolic_array_8x8_DP_OP_630J1_142_8972_J1_0
+u_compute/DP_OP_631J1_143_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_631J1_143_8972_J1_0
+u_compute/DP_OP_632J1_144_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_632J1_144_8972_J1_0
+u_compute/DP_OP_633J1_145_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_633J1_145_8972_J1_0
+u_compute/DP_OP_634J1_146_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_634J1_146_8972_J1_0
+u_compute/DP_OP_635J1_147_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_635J1_147_8972_J1_0
+u_compute/DP_OP_636J1_148_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_636J1_148_8972_J1_0
+u_compute/DP_OP_637J1_149_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_637J1_149_8972_J1_0
+u_compute/DP_OP_638J1_150_8972      564.4538      0.6    564.4538      0.0000  0.0000  systolic_array_8x8_DP_OP_638J1_150_8972_J1_0
+u_compute/DP_OP_639J1_151_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_639J1_151_8972_J1_0
+u_compute/DP_OP_640J1_152_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_640J1_152_8972_J1_0
+u_compute/DP_OP_641J1_153_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_641J1_153_8972_J1_0
+u_compute/DP_OP_642J1_154_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_642J1_154_8972_J1_0
+u_compute/DP_OP_643J1_155_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_643J1_155_8972_J1_0
+u_compute/DP_OP_644J1_156_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_644J1_156_8972_J1_0
+u_compute/DP_OP_645J1_157_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_645J1_157_8972_J1_0
+u_compute/DP_OP_646J1_158_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_646J1_158_8972_J1_0
+u_compute/DP_OP_647J1_159_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_647J1_159_8972_J1_0
+u_compute/DP_OP_648J1_160_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_648J1_160_8972_J1_0
+u_compute/DP_OP_649J1_161_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_649J1_161_8972_J1_0
+u_compute/DP_OP_650J1_162_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_650J1_162_8972_J1_0
+u_compute/DP_OP_651J1_163_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_651J1_163_8972_J1_0
+u_compute/DP_OP_652J1_164_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_652J1_164_8972_J1_0
+u_compute/DP_OP_653J1_165_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_653J1_165_8972_J1_0
+u_compute/DP_OP_654J1_166_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_654J1_166_8972_J1_0
+u_compute/DP_OP_655J1_167_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_655J1_167_8972_J1_0
+u_compute/DP_OP_656J1_168_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_656J1_168_8972_J1_0
+u_compute/DP_OP_657J1_169_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_657J1_169_8972_J1_0
+u_compute/DP_OP_658J1_170_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_658J1_170_8972_J1_0
+u_compute/DP_OP_659J1_171_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_659J1_171_8972_J1_0
+u_compute/DP_OP_660J1_172_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_660J1_172_8972_J1_0
+u_compute/DP_OP_661J1_173_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_661J1_173_8972_J1_0
+u_compute/DP_OP_662J1_174_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_662J1_174_8972_J1_0
+u_compute/DP_OP_663J1_175_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_663J1_175_8972_J1_0
+u_compute/DP_OP_664J1_176_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_664J1_176_8972_J1_0
+u_compute/DP_OP_665J1_177_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_665J1_177_8972_J1_0
+u_compute/DP_OP_666J1_178_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_666J1_178_8972_J1_0
+u_compute/DP_OP_667J1_179_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_667J1_179_8972_J1_0
+u_compute/DP_OP_668J1_180_8972      562.4207      0.6    562.4207      0.0000  0.0000  systolic_array_8x8_DP_OP_668J1_180_8972_J1_0
+u_compute/DP_OP_669J1_181_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_669J1_181_8972_J1_0
+u_compute/DP_OP_670J1_182_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_670J1_182_8972_J1_0
+u_compute/DP_OP_671J1_183_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_671J1_183_8972_J1_0
+u_compute/DP_OP_672J1_184_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_672J1_184_8972_J1_0
+u_compute/DP_OP_673J1_185_8972      560.3875      0.6    560.3875      0.0000  0.0000  systolic_array_8x8_DP_OP_673J1_185_8972_J1_0
+u_compute/gen_row[0].gen_col[0].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_144
+u_compute/gen_row[0].gen_col[1].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_141
+u_compute/gen_row[0].gen_col[2].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_138
+u_compute/gen_row[0].gen_col[3].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_135
+u_compute/gen_row[0].gen_col[4].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_132
+u_compute/gen_row[0].gen_col[5].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_129
+u_compute/gen_row[0].gen_col[6].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_126
+u_compute/gen_row[0].gen_col[7].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_8_12
+u_compute/gen_row[1].gen_col[0].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_123
+u_compute/gen_row[1].gen_col[1].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_120
+u_compute/gen_row[1].gen_col[2].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_117
+u_compute/gen_row[1].gen_col[3].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_114
+u_compute/gen_row[1].gen_col[4].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_111
+u_compute/gen_row[1].gen_col[5].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_108
+u_compute/gen_row[1].gen_col[6].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_105
+u_compute/gen_row[1].gen_col[7].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_8_10
+u_compute/gen_row[2].gen_col[0].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_102
+u_compute/gen_row[2].gen_col[1].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_99
+u_compute/gen_row[2].gen_col[2].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_96
+u_compute/gen_row[2].gen_col[3].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_93
+u_compute/gen_row[2].gen_col[4].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_90
+u_compute/gen_row[2].gen_col[5].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_87
+u_compute/gen_row[2].gen_col[6].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_84
+u_compute/gen_row[2].gen_col[7].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_8_8
+u_compute/gen_row[3].gen_col[0].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_81
+u_compute/gen_row[3].gen_col[1].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_78
+u_compute/gen_row[3].gen_col[2].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_75
+u_compute/gen_row[3].gen_col[3].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_72
+u_compute/gen_row[3].gen_col[4].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_69
+u_compute/gen_row[3].gen_col[5].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_66
+u_compute/gen_row[3].gen_col[6].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_63
+u_compute/gen_row[3].gen_col[7].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_8_6
+u_compute/gen_row[4].gen_col[0].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_60
+u_compute/gen_row[4].gen_col[1].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_57
+u_compute/gen_row[4].gen_col[2].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_54
+u_compute/gen_row[4].gen_col[3].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_51
+u_compute/gen_row[4].gen_col[4].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_48
+u_compute/gen_row[4].gen_col[5].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_45
+u_compute/gen_row[4].gen_col[6].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_42
+u_compute/gen_row[4].gen_col[7].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_8_4
+u_compute/gen_row[5].gen_col[0].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_39
+u_compute/gen_row[5].gen_col[0].pe_inst/clk_gate_w_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_38
+u_compute/gen_row[5].gen_col[1].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_36
+u_compute/gen_row[5].gen_col[1].pe_inst/clk_gate_w_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_35
+u_compute/gen_row[5].gen_col[2].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_33
+u_compute/gen_row[5].gen_col[2].pe_inst/clk_gate_w_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_32
+u_compute/gen_row[5].gen_col[3].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_30
+u_compute/gen_row[5].gen_col[3].pe_inst/clk_gate_w_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_29
+u_compute/gen_row[5].gen_col[4].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_27
+u_compute/gen_row[5].gen_col[4].pe_inst/clk_gate_w_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_26
+u_compute/gen_row[5].gen_col[5].pe_inst/clk_gate_a_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_22
+u_compute/gen_row[5].gen_col[5].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_24
+u_compute/gen_row[5].gen_col[5].pe_inst/clk_gate_w_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_23
+u_compute/gen_row[5].gen_col[6].pe_inst/clk_gate_a_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_19
+u_compute/gen_row[5].gen_col[6].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_21
+u_compute/gen_row[5].gen_col[6].pe_inst/clk_gate_w_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_20
+u_compute/gen_row[5].gen_col[7].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_8_2
+u_compute/gen_row[5].gen_col[7].pe_inst/clk_gate_w_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_8_1
+u_compute/gen_row[6].gen_col[0].pe_inst/clk_gate_a_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_16
+u_compute/gen_row[6].gen_col[0].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_18
+u_compute/gen_row[6].gen_col[0].pe_inst/clk_gate_w_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_17
+u_compute/gen_row[6].gen_col[1].pe_inst/clk_gate_a_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_13
+u_compute/gen_row[6].gen_col[1].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_15
+u_compute/gen_row[6].gen_col[1].pe_inst/clk_gate_w_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_14
+u_compute/gen_row[6].gen_col[2].pe_inst/clk_gate_a_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_10
+u_compute/gen_row[6].gen_col[2].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_12
+u_compute/gen_row[6].gen_col[2].pe_inst/clk_gate_w_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_11
+u_compute/gen_row[6].gen_col[3].pe_inst/clk_gate_a_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_7
+u_compute/gen_row[6].gen_col[3].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_9
+u_compute/gen_row[6].gen_col[3].pe_inst/clk_gate_w_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_8
+u_compute/gen_row[6].gen_col[4].pe_inst/clk_gate_a_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_4
+u_compute/gen_row[6].gen_col[4].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_6
+u_compute/gen_row[6].gen_col[4].pe_inst/clk_gate_w_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_5
+u_compute/gen_row[6].gen_col[5].pe_inst/clk_gate_a_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_1
+u_compute/gen_row[6].gen_col[5].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_3
+u_compute/gen_row[6].gen_col[5].pe_inst/clk_gate_w_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_2
+u_compute/gen_row[6].gen_col[6].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_9_146
+u_compute/gen_row[6].gen_col[7].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_8_13
+u_compute/gen_row[7].gen_col[0].pe_inst/clk_gate_a_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_1_11
+u_compute/gen_row[7].gen_col[0].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_1_12
+u_compute/gen_row[7].gen_col[1].pe_inst/clk_gate_a_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_1_9
+u_compute/gen_row[7].gen_col[1].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_1_10
+u_compute/gen_row[7].gen_col[2].pe_inst/clk_gate_a_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_1_7
+u_compute/gen_row[7].gen_col[2].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_1_8
+u_compute/gen_row[7].gen_col[3].pe_inst/clk_gate_a_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_1_5
+u_compute/gen_row[7].gen_col[3].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_1_6
+u_compute/gen_row[7].gen_col[4].pe_inst/clk_gate_a_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_1_3
+u_compute/gen_row[7].gen_col[4].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_1_4
+u_compute/gen_row[7].gen_col[5].pe_inst/clk_gate_a_out_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_1_1
+u_compute/gen_row[7].gen_col[5].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_1_2
+u_compute/gen_row[7].gen_col[6].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_1_13
+u_compute/gen_row[7].gen_col[7].pe_inst/clk_gate_accumulator_reg
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_systolic_pe_0
+u_regs                            30048.4623     30.1   6498.4621  22392.6283  0.0000  accel_regs
+u_regs/clk_gate_a_buf_reg[0]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_128
+u_regs/clk_gate_a_buf_reg[10]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_118
+u_regs/clk_gate_a_buf_reg[11]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_117
+u_regs/clk_gate_a_buf_reg[12]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_116
+u_regs/clk_gate_a_buf_reg[13]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_115
+u_regs/clk_gate_a_buf_reg[14]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_114
+u_regs/clk_gate_a_buf_reg[15]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_113
+u_regs/clk_gate_a_buf_reg[16]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_112
+u_regs/clk_gate_a_buf_reg[17]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_111
+u_regs/clk_gate_a_buf_reg[18]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_110
+u_regs/clk_gate_a_buf_reg[19]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_109
+u_regs/clk_gate_a_buf_reg[1]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_127
+u_regs/clk_gate_a_buf_reg[20]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_108
+u_regs/clk_gate_a_buf_reg[21]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_107
+u_regs/clk_gate_a_buf_reg[22]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_106
+u_regs/clk_gate_a_buf_reg[23]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_105
+u_regs/clk_gate_a_buf_reg[24]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_104
+u_regs/clk_gate_a_buf_reg[25]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_103
+u_regs/clk_gate_a_buf_reg[26]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_102
+u_regs/clk_gate_a_buf_reg[27]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_101
+u_regs/clk_gate_a_buf_reg[28]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_100
+u_regs/clk_gate_a_buf_reg[29]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_99
+u_regs/clk_gate_a_buf_reg[2]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_126
+u_regs/clk_gate_a_buf_reg[30]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_98
+u_regs/clk_gate_a_buf_reg[31]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_97
+u_regs/clk_gate_a_buf_reg[32]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_96
+u_regs/clk_gate_a_buf_reg[33]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_95
+u_regs/clk_gate_a_buf_reg[34]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_94
+u_regs/clk_gate_a_buf_reg[35]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_93
+u_regs/clk_gate_a_buf_reg[36]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_92
+u_regs/clk_gate_a_buf_reg[37]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_91
+u_regs/clk_gate_a_buf_reg[38]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_90
+u_regs/clk_gate_a_buf_reg[39]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_89
+u_regs/clk_gate_a_buf_reg[3]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_125
+u_regs/clk_gate_a_buf_reg[40]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_88
+u_regs/clk_gate_a_buf_reg[41]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_87
+u_regs/clk_gate_a_buf_reg[42]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_86
+u_regs/clk_gate_a_buf_reg[43]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_85
+u_regs/clk_gate_a_buf_reg[44]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_84
+u_regs/clk_gate_a_buf_reg[45]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_83
+u_regs/clk_gate_a_buf_reg[46]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_82
+u_regs/clk_gate_a_buf_reg[47]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_81
+u_regs/clk_gate_a_buf_reg[48]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_80
+u_regs/clk_gate_a_buf_reg[49]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_79
+u_regs/clk_gate_a_buf_reg[4]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_124
+u_regs/clk_gate_a_buf_reg[50]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_78
+u_regs/clk_gate_a_buf_reg[51]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_77
+u_regs/clk_gate_a_buf_reg[52]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_76
+u_regs/clk_gate_a_buf_reg[53]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_75
+u_regs/clk_gate_a_buf_reg[54]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_74
+u_regs/clk_gate_a_buf_reg[55]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_73
+u_regs/clk_gate_a_buf_reg[56]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_72
+u_regs/clk_gate_a_buf_reg[57]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_71
+u_regs/clk_gate_a_buf_reg[58]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_70
+u_regs/clk_gate_a_buf_reg[59]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_69
+u_regs/clk_gate_a_buf_reg[5]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_123
+u_regs/clk_gate_a_buf_reg[60]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_68
+u_regs/clk_gate_a_buf_reg[61]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_67
+u_regs/clk_gate_a_buf_reg[62]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_66
+u_regs/clk_gate_a_buf_reg[63]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_65
+u_regs/clk_gate_a_buf_reg[6]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_122
+u_regs/clk_gate_a_buf_reg[7]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_121
+u_regs/clk_gate_a_buf_reg[8]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_120
+u_regs/clk_gate_a_buf_reg[9]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_119
+u_regs/clk_gate_arr_act_data_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_132
+u_regs/clk_gate_arr_act_data_reg_0
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_131
+u_regs/clk_gate_arr_wgt_data_reg      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_134
+u_regs/clk_gate_arr_wgt_data_reg_0
+                                      5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_133
+u_regs/clk_gate_b_buf_reg[0]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_64
+u_regs/clk_gate_b_buf_reg[10]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_54
+u_regs/clk_gate_b_buf_reg[11]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_53
+u_regs/clk_gate_b_buf_reg[12]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_52
+u_regs/clk_gate_b_buf_reg[13]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_51
+u_regs/clk_gate_b_buf_reg[14]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_50
+u_regs/clk_gate_b_buf_reg[15]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_49
+u_regs/clk_gate_b_buf_reg[16]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_48
+u_regs/clk_gate_b_buf_reg[17]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_47
+u_regs/clk_gate_b_buf_reg[18]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_46
+u_regs/clk_gate_b_buf_reg[19]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_45
+u_regs/clk_gate_b_buf_reg[1]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_63
+u_regs/clk_gate_b_buf_reg[20]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_44
+u_regs/clk_gate_b_buf_reg[21]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_43
+u_regs/clk_gate_b_buf_reg[22]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_42
+u_regs/clk_gate_b_buf_reg[23]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_41
+u_regs/clk_gate_b_buf_reg[24]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_40
+u_regs/clk_gate_b_buf_reg[25]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_39
+u_regs/clk_gate_b_buf_reg[26]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_38
+u_regs/clk_gate_b_buf_reg[27]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_37
+u_regs/clk_gate_b_buf_reg[28]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_36
+u_regs/clk_gate_b_buf_reg[29]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_35
+u_regs/clk_gate_b_buf_reg[2]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_62
+u_regs/clk_gate_b_buf_reg[30]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_34
+u_regs/clk_gate_b_buf_reg[31]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_33
+u_regs/clk_gate_b_buf_reg[32]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_32
+u_regs/clk_gate_b_buf_reg[33]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_31
+u_regs/clk_gate_b_buf_reg[34]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_30
+u_regs/clk_gate_b_buf_reg[35]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_29
+u_regs/clk_gate_b_buf_reg[36]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_28
+u_regs/clk_gate_b_buf_reg[37]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_27
+u_regs/clk_gate_b_buf_reg[38]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_26
+u_regs/clk_gate_b_buf_reg[39]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_25
+u_regs/clk_gate_b_buf_reg[3]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_61
+u_regs/clk_gate_b_buf_reg[40]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_24
+u_regs/clk_gate_b_buf_reg[41]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_23
+u_regs/clk_gate_b_buf_reg[42]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_22
+u_regs/clk_gate_b_buf_reg[43]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_21
+u_regs/clk_gate_b_buf_reg[44]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_20
+u_regs/clk_gate_b_buf_reg[45]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_19
+u_regs/clk_gate_b_buf_reg[46]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_18
+u_regs/clk_gate_b_buf_reg[47]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_17
+u_regs/clk_gate_b_buf_reg[48]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_16
+u_regs/clk_gate_b_buf_reg[49]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_15
+u_regs/clk_gate_b_buf_reg[4]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_60
+u_regs/clk_gate_b_buf_reg[50]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_14
+u_regs/clk_gate_b_buf_reg[51]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_13
+u_regs/clk_gate_b_buf_reg[52]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_12
+u_regs/clk_gate_b_buf_reg[53]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_11
+u_regs/clk_gate_b_buf_reg[54]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_10
+u_regs/clk_gate_b_buf_reg[55]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_9
+u_regs/clk_gate_b_buf_reg[56]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_8
+u_regs/clk_gate_b_buf_reg[57]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_7
+u_regs/clk_gate_b_buf_reg[58]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_6
+u_regs/clk_gate_b_buf_reg[59]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_5
+u_regs/clk_gate_b_buf_reg[5]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_59
+u_regs/clk_gate_b_buf_reg[60]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_4
+u_regs/clk_gate_b_buf_reg[61]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_3
+u_regs/clk_gate_b_buf_reg[62]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_2
+u_regs/clk_gate_b_buf_reg[63]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_1
+u_regs/clk_gate_b_buf_reg[6]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_58
+u_regs/clk_gate_b_buf_reg[7]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_57
+u_regs/clk_gate_b_buf_reg[8]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_56
+u_regs/clk_gate_b_buf_reg[9]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_55
+u_regs/clk_gate_c_buf_reg[0]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_0
+u_regs/clk_gate_c_buf_reg[10]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_182
+u_regs/clk_gate_c_buf_reg[11]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_174
+u_regs/clk_gate_c_buf_reg[12]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_166
+u_regs/clk_gate_c_buf_reg[13]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_158
+u_regs/clk_gate_c_buf_reg[14]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_150
+u_regs/clk_gate_c_buf_reg[15]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_142
+u_regs/clk_gate_c_buf_reg[16]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_197
+u_regs/clk_gate_c_buf_reg[17]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_189
+u_regs/clk_gate_c_buf_reg[18]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_181
+u_regs/clk_gate_c_buf_reg[19]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_173
+u_regs/clk_gate_c_buf_reg[1]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_191
+u_regs/clk_gate_c_buf_reg[20]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_165
+u_regs/clk_gate_c_buf_reg[21]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_157
+u_regs/clk_gate_c_buf_reg[22]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_149
+u_regs/clk_gate_c_buf_reg[23]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_141
+u_regs/clk_gate_c_buf_reg[24]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_196
+u_regs/clk_gate_c_buf_reg[25]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_188
+u_regs/clk_gate_c_buf_reg[26]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_180
+u_regs/clk_gate_c_buf_reg[27]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_172
+u_regs/clk_gate_c_buf_reg[28]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_164
+u_regs/clk_gate_c_buf_reg[29]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_156
+u_regs/clk_gate_c_buf_reg[2]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_183
+u_regs/clk_gate_c_buf_reg[30]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_148
+u_regs/clk_gate_c_buf_reg[31]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_140
+u_regs/clk_gate_c_buf_reg[32]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_195
+u_regs/clk_gate_c_buf_reg[33]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_187
+u_regs/clk_gate_c_buf_reg[34]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_179
+u_regs/clk_gate_c_buf_reg[35]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_171
+u_regs/clk_gate_c_buf_reg[36]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_163
+u_regs/clk_gate_c_buf_reg[37]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_155
+u_regs/clk_gate_c_buf_reg[38]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_147
+u_regs/clk_gate_c_buf_reg[39]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_139
+u_regs/clk_gate_c_buf_reg[3]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_175
+u_regs/clk_gate_c_buf_reg[40]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_194
+u_regs/clk_gate_c_buf_reg[41]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_186
+u_regs/clk_gate_c_buf_reg[42]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_178
+u_regs/clk_gate_c_buf_reg[43]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_170
+u_regs/clk_gate_c_buf_reg[44]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_162
+u_regs/clk_gate_c_buf_reg[45]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_154
+u_regs/clk_gate_c_buf_reg[46]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_146
+u_regs/clk_gate_c_buf_reg[47]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_138
+u_regs/clk_gate_c_buf_reg[48]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_193
+u_regs/clk_gate_c_buf_reg[49]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_185
+u_regs/clk_gate_c_buf_reg[4]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_167
+u_regs/clk_gate_c_buf_reg[50]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_177
+u_regs/clk_gate_c_buf_reg[51]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_169
+u_regs/clk_gate_c_buf_reg[52]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_161
+u_regs/clk_gate_c_buf_reg[53]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_153
+u_regs/clk_gate_c_buf_reg[54]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_145
+u_regs/clk_gate_c_buf_reg[55]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_137
+u_regs/clk_gate_c_buf_reg[56]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_192
+u_regs/clk_gate_c_buf_reg[57]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_184
+u_regs/clk_gate_c_buf_reg[58]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_176
+u_regs/clk_gate_c_buf_reg[59]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_168
+u_regs/clk_gate_c_buf_reg[5]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_159
+u_regs/clk_gate_c_buf_reg[60]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_160
+u_regs/clk_gate_c_buf_reg[61]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_152
+u_regs/clk_gate_c_buf_reg[62]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_144
+u_regs/clk_gate_c_buf_reg[63]         5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_136
+u_regs/clk_gate_c_buf_reg[6]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_151
+u_regs/clk_gate_c_buf_reg[7]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_143
+u_regs/clk_gate_c_buf_reg[8]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_198
+u_regs/clk_gate_c_buf_reg[9]          5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_190
+u_regs/clk_gate_irq_en_reg            5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_129
+u_regs/clk_gate_sc_cnt_reg            5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_accel_regs_135
+--------------------------------  ----------  -------  ----------  ----------  ------  --------------------------------------------
+Total                                                  54818.0980  45123.7764  0.0000
+
+1

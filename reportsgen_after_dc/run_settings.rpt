@@ -1,0 +1,8 @@
+DESIGN_NAME       = accel_top
+CLOCK_PERIOD      = 6.20
+SETUP_UNCERTAINTY = 0.250
+HOLD_UNCERTAINTY  = 0.050
+IO_DELAY          = 1.00
+OUT_LOAD          = 0.05
+MAX_TRANSITION    = 0.60
+MAX_FANOUT        = 10

@@ -1,0 +1,195 @@
+--------------------------------------------------------------------------------
+                            Clock Gating Style Checks
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+                         Target Library Subset Checks
+--------------------------------------------------------------------------------
+No Errors/Warnings Found.
+
+--------------------------------------------------------------------------------
+                             Level Shifter Checks
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+                        Level Shifter Checks Summary
+--------------------------------------------------------------------------------
+Warning: Found 103 pin to pin connections requiring level shifter(s).  (MV-229)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/state_reg[2]/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/state_reg[0]/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/state_reg[1]/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/cycle_cnt_reg[3]/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/cycle_cnt_reg[2]/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/cycle_cnt_reg[1]/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/cycle_cnt_reg[4]/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/cycle_cnt_reg[0]/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/drain_col_reg[0]/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/drain_col_reg[1]/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/drain_col_reg[2]/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[7].gen_col[5].pe_inst/clk_gate_a_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[7].gen_col[5].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[7].gen_col[4].pe_inst/clk_gate_a_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[7].gen_col[4].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[7].gen_col[3].pe_inst/clk_gate_a_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[7].gen_col[3].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[7].gen_col[2].pe_inst/clk_gate_a_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[7].gen_col[2].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[7].gen_col[1].pe_inst/clk_gate_a_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[7].gen_col[1].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[7].gen_col[0].pe_inst/clk_gate_a_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[7].gen_col[0].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[5].pe_inst/clk_gate_a_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[5].pe_inst/clk_gate_w_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[5].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[4].pe_inst/clk_gate_a_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[4].pe_inst/clk_gate_w_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[4].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[3].pe_inst/clk_gate_a_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[3].pe_inst/clk_gate_w_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[3].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[2].pe_inst/clk_gate_a_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[2].pe_inst/clk_gate_w_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[2].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[1].pe_inst/clk_gate_a_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[1].pe_inst/clk_gate_w_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[1].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[0].pe_inst/clk_gate_a_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[0].pe_inst/clk_gate_w_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[0].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[7].pe_inst/clk_gate_w_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[7].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[6].pe_inst/clk_gate_a_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[6].pe_inst/clk_gate_w_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[6].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[5].pe_inst/clk_gate_a_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[5].pe_inst/clk_gate_w_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[5].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[4].pe_inst/clk_gate_w_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[4].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[3].pe_inst/clk_gate_w_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[3].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[2].pe_inst/clk_gate_w_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[2].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[1].pe_inst/clk_gate_w_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[1].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[0].pe_inst/clk_gate_w_out_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[5].gen_col[0].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[4].gen_col[7].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[4].gen_col[6].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[4].gen_col[5].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[4].gen_col[4].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[4].gen_col[3].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[4].gen_col[2].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[4].gen_col[1].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[4].gen_col[0].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[3].gen_col[7].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[3].gen_col[6].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[3].gen_col[5].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[3].gen_col[4].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[3].gen_col[3].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[3].gen_col[2].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[3].gen_col[1].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[3].gen_col[0].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[2].gen_col[7].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[2].gen_col[6].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[2].gen_col[5].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[2].gen_col[4].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[2].gen_col[3].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[2].gen_col[2].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[2].gen_col[1].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[2].gen_col[0].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[1].gen_col[7].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[1].gen_col[6].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[1].gen_col[5].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[1].gen_col[4].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[1].gen_col[3].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[1].gen_col[2].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[1].gen_col[1].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[1].gen_col[0].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[0].gen_col[7].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[0].gen_col[6].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[0].gen_col[5].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[0].gen_col[4].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[0].gen_col[3].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[0].gen_col[2].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[0].gen_col[1].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[0].gen_col[0].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[6].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[6].gen_col[7].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[7].gen_col[6].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+Warning: Pin 'clk'(VDD_ALW[1.05v]) cannot drive 'u_compute/gen_row[7].gen_col[7].pe_inst/clk_gate_accumulator_reg/latch/CLK'(VDD_COMP_SW[0.78v]) due to voltage differences (effective strategy is [rule = high_to_low, threshold = 0.00]). (MV-231)
+
+--------------------------------------------------------------------------------
+                             Power Domain Checks
+--------------------------------------------------------------------------------
+No Errors/Warnings Found.
+
+--------------------------------------------------------------------------------
+                               Always On Checks
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+                         Always On Checks Summary
+--------------------------------------------------------------------------------
+No Errors/Warnings Found.
+
+--------------------------------------------------------------------------------
+                 Design And Library Operating Condition Checks
+--------------------------------------------------------------------------------
+Warning: No operating condition has been set explicitly on the current design. A default operating condition will be assumed. (MV-028)
+Error: Either no operating condition has been applied for the current design (warning MV-028), or the libraries have improper operating condition characteristics, as reported in warnings LIBSETUP-026 or LIBSETUP-027. (LIBSETUP-029)
+
+--------------------------------------------------------------------------------
+                        Cell Operating Condition Checks
+--------------------------------------------------------------------------------
+No Errors/Warnings Found.
+
+--------------------------------------------------------------------------------
+           Power Domain and Operating Condition Consistency Checks
+--------------------------------------------------------------------------------
+No Errors/Warnings Found.
+--------------------------------------------------------------------------------
+                      Power/Ground Pin Connection Checks
+--------------------------------------------------------------------------------
+No Errors/Warnings Found.
+
+--------------------------------------------------------------------------------
+                         Supply Operating Voltage Checks
+--------------------------------------------------------------------------------
+No Errors/Warnings Found.
+
+--------------------------------------------------------------------------------
+                                 Model checks
+--------------------------------------------------------------------------------
+No Errors/Warnings Found.
+
+--------------------------------------------------------------------------------
+                          Retention Synthesis Checks
+--------------------------------------------------------------------------------
+No Errors/Warnings Found.
+
+--------------------------------------------------------------------------------
+                          Isolation Synthesis Checks
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+                 Isolation Library Cell PG Pin Checks Summary
+--------------------------------------------------------------------------------
+No Errors/Warnings Found.
+
+--------------------------------------------------------------------------------
+                       Power Domains Root Cells Checks
+--------------------------------------------------------------------------------
+No Errors/Warnings Found.
+
+--------------------------------------------------------------------------------
+                                Analog Checks
+--------------------------------------------------------------------------------
+No Errors/Warnings Found.
+
+--------------------------------------------------------------------------------
+                                Pad Pin Checks
+--------------------------------------------------------------------------------
+No Errors/Warnings Found.
+
+Please review report above for warnings and errors.
+0

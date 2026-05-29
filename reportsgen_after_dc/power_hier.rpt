@@ -1,0 +1,166 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : accel_top
+Version: V-2023.12-SP4
+Date   : Fri May 29 16:25:57 2026
+****************************************
+
+
+Library(s) Used:
+
+    saed32lvt_tt1p05v25c (File: /data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_lvt/db_ccs/saed32lvt_tt1p05v25c.db)
+    saed32rvt_ulvl_tt1p05v25c_i0p78v (File: /data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_ulvl_tt1p05v25c_i0p78v.db)
+    saed32rvt_tt1p05v25c (File: /data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v25c.db)
+    saed32lvt_tt0p78v25c (File: /data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_lvt/db_ccs/saed32lvt_tt0p78v25c.db)
+    saed32rvt_tt0p78v25c (File: /data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt0p78v25c.db)
+    saed32rvt_dlvl_tt0p78v25c_i1p05v (File: /data/pdk/pdk32nm/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_dlvl_tt0p78v25c_i1p05v.db)
+
+
+Global Operating Voltage = 1.05 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+accel_top                                42.327  292.960 2.72e+09 3.06e+03 100.0
+  u_compute (systolic_array_8x8)         15.537   50.038 1.95e+09 2.02e+03  66.0
+    DP_OP_610J1_122_8972 (systolic_array_8x8_DP_OP_610J1_122_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_611J1_123_8972 (systolic_array_8x8_DP_OP_611J1_123_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_612J1_124_8972 (systolic_array_8x8_DP_OP_612J1_124_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_613J1_125_8972 (systolic_array_8x8_DP_OP_613J1_125_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_614J1_126_8972 (systolic_array_8x8_DP_OP_614J1_126_8972_J1_0)
+                                       7.18e-04 2.06e-03 1.90e+07   18.966   0.6
+    DP_OP_615J1_127_8972 (systolic_array_8x8_DP_OP_615J1_127_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.95e+07   19.459   0.6
+    DP_OP_616J1_128_8972 (systolic_array_8x8_DP_OP_616J1_128_8972_J1_0)
+                                       7.62e-04 2.18e-03 2.04e+07   20.384   0.7
+    DP_OP_617J1_129_8972 (systolic_array_8x8_DP_OP_617J1_129_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.88e+07   18.826   0.6
+    DP_OP_618J1_130_8972 (systolic_array_8x8_DP_OP_618J1_130_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.94e+07   19.387   0.6
+    DP_OP_619J1_131_8972 (systolic_array_8x8_DP_OP_619J1_131_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.95e+07   19.543   0.6
+    DP_OP_620J1_132_8972 (systolic_array_8x8_DP_OP_620J1_132_8972_J1_0)
+                                       7.62e-04 2.18e-03 2.14e+07   21.422   0.7
+    DP_OP_621J1_133_8972 (systolic_array_8x8_DP_OP_621J1_133_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.98e+07   19.796   0.6
+    DP_OP_622J1_134_8972 (systolic_array_8x8_DP_OP_622J1_134_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.87e+07   18.712   0.6
+    DP_OP_623J1_135_8972 (systolic_array_8x8_DP_OP_623J1_135_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_624J1_136_8972 (systolic_array_8x8_DP_OP_624J1_136_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_625J1_137_8972 (systolic_array_8x8_DP_OP_625J1_137_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_626J1_138_8972 (systolic_array_8x8_DP_OP_626J1_138_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_627J1_139_8972 (systolic_array_8x8_DP_OP_627J1_139_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_628J1_140_8972 (systolic_array_8x8_DP_OP_628J1_140_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_629J1_141_8972 (systolic_array_8x8_DP_OP_629J1_141_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_630J1_142_8972 (systolic_array_8x8_DP_OP_630J1_142_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.87e+07   18.680   0.6
+    DP_OP_631J1_143_8972 (systolic_array_8x8_DP_OP_631J1_143_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_632J1_144_8972 (systolic_array_8x8_DP_OP_632J1_144_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_633J1_145_8972 (systolic_array_8x8_DP_OP_633J1_145_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_634J1_146_8972 (systolic_array_8x8_DP_OP_634J1_146_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_635J1_147_8972 (systolic_array_8x8_DP_OP_635J1_147_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_636J1_148_8972 (systolic_array_8x8_DP_OP_636J1_148_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_637J1_149_8972 (systolic_array_8x8_DP_OP_637J1_149_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_638J1_150_8972 (systolic_array_8x8_DP_OP_638J1_150_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.87e+07   18.712   0.6
+    DP_OP_639J1_151_8972 (systolic_array_8x8_DP_OP_639J1_151_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_640J1_152_8972 (systolic_array_8x8_DP_OP_640J1_152_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_641J1_153_8972 (systolic_array_8x8_DP_OP_641J1_153_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_642J1_154_8972 (systolic_array_8x8_DP_OP_642J1_154_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_643J1_155_8972 (systolic_array_8x8_DP_OP_643J1_155_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_644J1_156_8972 (systolic_array_8x8_DP_OP_644J1_156_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_645J1_157_8972 (systolic_array_8x8_DP_OP_645J1_157_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_646J1_158_8972 (systolic_array_8x8_DP_OP_646J1_158_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_647J1_159_8972 (systolic_array_8x8_DP_OP_647J1_159_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_648J1_160_8972 (systolic_array_8x8_DP_OP_648J1_160_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_649J1_161_8972 (systolic_array_8x8_DP_OP_649J1_161_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_650J1_162_8972 (systolic_array_8x8_DP_OP_650J1_162_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_651J1_163_8972 (systolic_array_8x8_DP_OP_651J1_163_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_652J1_164_8972 (systolic_array_8x8_DP_OP_652J1_164_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_653J1_165_8972 (systolic_array_8x8_DP_OP_653J1_165_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_654J1_166_8972 (systolic_array_8x8_DP_OP_654J1_166_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_655J1_167_8972 (systolic_array_8x8_DP_OP_655J1_167_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_656J1_168_8972 (systolic_array_8x8_DP_OP_656J1_168_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_657J1_169_8972 (systolic_array_8x8_DP_OP_657J1_169_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_658J1_170_8972 (systolic_array_8x8_DP_OP_658J1_170_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_659J1_171_8972 (systolic_array_8x8_DP_OP_659J1_171_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_660J1_172_8972 (systolic_array_8x8_DP_OP_660J1_172_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_661J1_173_8972 (systolic_array_8x8_DP_OP_661J1_173_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_662J1_174_8972 (systolic_array_8x8_DP_OP_662J1_174_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_663J1_175_8972 (systolic_array_8x8_DP_OP_663J1_175_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_664J1_176_8972 (systolic_array_8x8_DP_OP_664J1_176_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_665J1_177_8972 (systolic_array_8x8_DP_OP_665J1_177_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_666J1_178_8972 (systolic_array_8x8_DP_OP_666J1_178_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_667J1_179_8972 (systolic_array_8x8_DP_OP_667J1_179_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_668J1_180_8972 (systolic_array_8x8_DP_OP_668J1_180_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.87e+07   18.680   0.6
+    DP_OP_669J1_181_8972 (systolic_array_8x8_DP_OP_669J1_181_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_670J1_182_8972 (systolic_array_8x8_DP_OP_670J1_182_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_671J1_183_8972 (systolic_array_8x8_DP_OP_671J1_183_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_672J1_184_8972 (systolic_array_8x8_DP_OP_672J1_184_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+    DP_OP_673J1_185_8972 (systolic_array_8x8_DP_OP_673J1_185_8972_J1_0)
+                                       7.62e-04 2.18e-03 1.86e+07   18.608   0.6
+  u_regs (accel_regs)                    26.776  242.908 7.26e+08  996.123  32.6
+1
